@@ -1,5 +1,3 @@
-# IDAI101_1000408_Sriprasath_AIY1_Critical-and-Creative-Thinking_SA
-
 # MindPatch: AI-Assisted Digital Detox and Wellness Planner
 
 **From Empathy to Execution: Designing User-Centered AI Digital Solutions Prototype**
@@ -115,13 +113,9 @@ Full details, personas, empathy maps and the complete reference list are in [doc
 
 ## 6. Screenshots of the prototype
 
-| | | |
-|---|---|---|
-| ![Home](images/screens/01-home.png) **Home** | ![Mood Logger](images/screens/02-mood-logger.png) **Mood Logger** | ![Screen Time](images/screens/03-screen-time.png) **Screen Time** |
-| ![Detox Planner](images/screens/04-detox-planner.png) **Detox Planner** | ![Gratitude Journal](images/screens/05-gratitude-journal.png) **Gratitude Journal** | ![Habits](images/screens/06-habits.png) **Habits** |
-| ![Daily Tips](images/screens/07-daily-tips.png) **Daily Tips** | ![Breathing Break](images/screens/08-breathing-break.png) **Breathing Break** | ![Settings and Privacy](images/screens/09-settings-privacy.png) **Settings and Privacy** |
+All screenshots of the prototype are in the **[screenshots folder](screenshots/)**. This includes the screens, the before and after images for the design iterations, and the Google Form response summary. Click the link to open the folder.
 
-Try the live version: [clickable Figma prototype](https://www.figma.com/make/JxtQFwInNt4TA1MPSgMFbI/High-Fidelity-Mobile-Prototype?t=DiSTaB9TQrAGcfqE-20&fullscreen=1).
+You can also try the live version: [clickable Figma prototype](https://www.figma.com/make/JxtQFwInNt4TA1MPSgMFbI/High-Fidelity-Mobile-Prototype?t=DiSTaB9TQrAGcfqE-20&fullscreen=1).
 
 ## 7. AI logic
 
@@ -173,7 +167,7 @@ On day 6 (today in the prototype) mood is 2 and screen time is 2 h 40 m, so R1 f
 ### Method
 Four peers tried the clickable prototype and answered a five-question multiple-choice [Google Form](https://forms.gle/vY3VhTx1r3B4qkH67) ([responses](https://docs.google.com/spreadsheets/d/1x-_lV_qAmn0XGUtw2HfWzKjCpVCc9YDla4BG4S1QDmM/edit?usp=sharing)).
 
-![Google Form response summary](images/testing/form-summary.png)
+The response summary screenshot is in the [screenshots folder](screenshots/).
 
 ### Results (4 responses)
 
@@ -196,9 +190,7 @@ All four found the prototype easy or very easy to use, and each tester picked a 
 | **After** | A breathing screen with an animated circle, a timer and a completion pop-up, reachable from the planner and the nudge banner. It also ticks the breathing habit. | A settings sheet with notifications, quiet hours, nudge frequency, wind-down mode, text size, reduce motion, a privacy statement and a delete-data option |
 | **What improved** | Users can act on a suggestion immediately with one tap | Users control their nudges and reading comfort, and privacy is visible |
 
-| Iteration 1 before | Iteration 1 after | Iteration 2 before | Iteration 2 after |
-|---|---|---|---|
-| ![Before 1](images/iterations/iteration-1-before.png) | ![After 1](images/iterations/iteration-1-after.png) | ![Before 2](images/iterations/iteration-2-before.png) | ![After 2](images/iterations/iteration-2-after.png) |
+Before and after screenshots for both iterations are in the [screenshots folder](screenshots/).
 
 **Limits of the testing.** Four peers is a small, friendly sample, so these results show direction and are not proof. The form measures opinions, not behaviour over time.
 
@@ -244,9 +236,7 @@ docs/step1-research.md          Research, apps, personas, empathy maps, mood boa
 images/
   mood-board.png
   ai-logic-flowchart.png
-  screens/                      Prototype screenshots
-  iterations/                   Before and after screenshots
-  testing/                      Form summary screenshot
+screenshots/                    Prototype screenshots (screens, before and after, form summary)
 files/behaviour-log-simulation.xlsx   5-day behaviour simulation (import into Google Sheets)
 ```
 
