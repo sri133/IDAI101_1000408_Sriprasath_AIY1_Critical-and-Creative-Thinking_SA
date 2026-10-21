@@ -61,23 +61,14 @@ Students study, socialise and relax on the same few devices, so the line between
 
 ### App flow
 
-```mermaid
-flowchart LR
-  A[Home] --> B[Mood Logger]
-  B --> C[Mood Saved]
-  C --> D[Detox Planner]
-  D -->|Accept| E[Habits]
-  E --> A
-  A --> F[Screen Time]
-  F --> D
-  A --> G[Nudge banner]
-  G --> D
-  D -->|5-min breathing| H[Breathing Break]
-  H --> I[Breathing Complete]
-  I --> E
-  A --> J[Settings and Privacy]
-  B --> K[Support Prompt]
-```
+| Path | Flow |
+|---|---|
+| Main path | Home → Mood Logger → Mood Saved → Detox Planner → Accept → Habits → Home |
+| From the dashboard | Home → Screen Time → Detox Planner |
+| From a nudge | Home → Nudge Banner → Detox Planner |
+| Breathing break | Detox Planner → 5-min breathing → Breathing Break → Breathing Complete → Habits |
+| Settings | Home → profile icon → Settings and Privacy |
+| Support | Mood Logger → Need support? → Support Prompt |
 
 **Screens (8):** Home, Mood Logger, Screen Time, Detox Planner, Gratitude Journal, Habits, Daily Tips, Breathing Break.
 **Overlays and states (6):** Mood Saved, Nudge Banner, Support Prompt, Settings and Privacy, Breathing Complete, Set Goals.
